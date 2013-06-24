@@ -1,0 +1,8 @@
+services:
+    jhv_easy_inheritance_mapping.listener.discriminator:
+        class     : %jhv_easy_inheritance_mapping.listener.class%
+        public    : false
+        tags      :
+            - { name: "doctrine.event_subscriber" }
+        arguments :
+            - "%jhv_easy_inheritance_mapping.discriminator_mapping%"

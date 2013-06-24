@@ -1,0 +1,25 @@
+{
+    "name"          : "jhv/easy-inheritance-mapping-bundle",
+    "type"          : "symfony-bundle",
+    "description"   : "JHVEasyInheritanceMappingBundle",
+    "keywords"      : ["mapping", "inheritance"],
+
+    "authors": [
+        {
+            "name": "Jorge Vahldick",
+            "email": "jvahldick@gmail.com"
+        }
+    ],
+
+    "license": "MIT",
+    "minimum-stability": "stable",
+
+    "require": {
+        "symfony/framework-bundle": ">=2.1,<2.3-dev"
+    },
+
+    "autoload": {
+        "psr-0": { "JHV\\Bundle\\EasyInheritanceMappingBundle": "" }
+    },
+    "target-dir": "JHV/Bundle/EasyInheritanceMappingBundle"
+}
